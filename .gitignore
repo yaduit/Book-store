@@ -1,0 +1,57 @@
+# -------------------------
+# Backend (Node + Express)
+# -------------------------
+backend/node_modules/
+backend/.env
+backend/.env.local
+backend/.env.production
+backend/package-lock.json
+
+# Logs
+backend/npm-debug.log*
+backend/yarn-debug.log*
+backend/yarn-error.log*
+backend/pids
+backend/*.pid
+backend/*.seed
+backend/*.pid.lock
+
+# Coverage
+backend/coverage/
+
+# -------------------------
+# Frontend (Vite + React + Tailwind)
+# -------------------------
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+frontend/.env.local
+frontend/.env.production
+
+# Vite cache
+frontend/.vite/
+
+# Log files
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/pnpm-debug.log*
+
+# -------------------------
+# System Files
+# -------------------------
+.DS_Store
+Thumbs.db
+
+# -------------------------
+# Editor / IDE files
+# -------------------------
+.vscode/
+.idea/
+
+# -------------------------
+# OS temp files
+# -------------------------
+*.swp
+*.swo
+*.tmp
